@@ -1,0 +1,21 @@
+1. Thomas Barbieri              0         0:01:09.317000
+2. Jan Dragoun                  0         0:01:10.117000
+3. Steve Stevenson              3         0:01:09.876000
+4. Kody Laurence                0         0:01:09.509000
+5. Filipe Olson                 0         0:01:10.880000
+6. Antonio Berto                4         0:01:10.829000
+7. Simon Benoit                 -4        0:01:10.380000
+8. Dave Southword               7         0:01:10.383000
+9. Giovani Amorim               9         0:01:10.029000
+10. Ali Gocmen                  -3        0:01:10.728000
+11. Bojidar Stoyanov            5         0:01:10.485000
+12. Adam Woodward               8         0:01:11.619000
+13. Agnis Rozitis               -2        0:01:10.827000
+14. Gustavo Dalla Valle         -6        0:01:09.923000
+15. Marco Radocchia             2         0:01:10.769000
+16. Roberto Radocchia           -7        0:01:10.901000
+17. Lesley Peters               2         0:01:11.514000
+18. Christoph Bose              -6        0:01:11.061000
+19. Kees Willems                -5        0:01:11.558000
+20. Ryan Wilson                 -7        0:01:12.251000
+21. Ollie Sanders               0         0:01:27.681000
