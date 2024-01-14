@@ -1,6 +1,5 @@
 import requests
 import re
-import json
 from datetime import timedelta
 
 resList = requests.get("http://75.119.157.74:8772/api/results/list.json?q=%RACE&sort=date&page=0")
