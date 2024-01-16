@@ -3,8 +3,17 @@ Pandēmijas sākumā ļoti daudz cilvēku steigā meklēja ko iesākt garajās s
 ## Mērķi
 - Iegūt rezultātu sarakstu no [API](https://wiki.emperorservers.com/assetto-corsa-server-manager/web-api).
 - Iegūt jaunākās sacīkstes rezultāta failu.
-- Apstrādāt to, un izvadīt izvēlētajā straumēšanas programmā.
+- Apstrādāt to, un izvadīt sacensību rezultātu izvēlētajā straumēšanas programmā.
 ## Izmantotie moduļi
 - Requests - izmantots priekš API, lai iegūtu attiecīgos failus. Iebūvēts Python, nav vajadzīga instalācija. 
 - Regular expression (re) - Lietots konkrētu datu meklēšanai "string" mainīgajos. Iebūvēts Python, nav vajadzīga instalācija.
 - datetime - Modulis izmantots, lai pārveidotu API doto laiku milisekundēs uz mm:ss.SSS formātu.
+## Sekcijas
+
+
+
+## Jaunas tēmas
+Jaunas tēmas, par kurām iemācījos šajā darbā:
+- Kā strādāt ar vienkāršiem API. Nojausma par API man jau bija, bet nebiju strādājis at tiem. Viss izrādījās vienkāršāk, kā domāju
+- pareiza *string* mainīgo sastādīšana no *substring* vai citiem mainīgajiem. Iepriekš izmantoju *str(a + "." + b)*
+- *datetime* modulis. Iepriekš tādu neesmu lietojis, tas palīdzēja vienkāršot procesu. 
