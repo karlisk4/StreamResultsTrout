@@ -2,7 +2,6 @@ import requests
 import re
 from datetime import timedelta
 
-#mainigo deklaresana
 i=1
 lenMax=0
 driver_info = []
@@ -21,9 +20,11 @@ for drivers in drivers_json['Result']:
         stI = str(i)
         driverName = drivers['DriverName']
         driverLine = "{stI}. {driverName} ".format(stI=stI, driverName=driverName)
+        driver_info.append(driverLine)
         #kvalifikācijas dati
         qPos = int(drivers['GridPosition'])
         diffPos = qPos-i
+        #atrākais aplis
         fstLapMs=int(drivers['BestLap'])
         fstlap=str(timedelta(milliseconds=fstLapMs))
         a = fstlap.replace("0:0","0")
@@ -43,9 +44,7 @@ for drivers in drivers_json['Result']:
         else:
                 timeGap = str(lapsLeader-lapsCompl)
                 timeGap = '{}{}{}'.format('+', timeGap, " laps")
-
         #gala sarakstu veidošana
-        driver_info.append(driverLine) #
         driver_stats.append('{}{}{}'.format(str(diffPos).ljust(8), fstlap.ljust(15), timeGap))
         i=i+1
 #teksta failu izveide
